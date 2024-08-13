@@ -3,7 +3,7 @@
 # AirControl-Mini
 
 The smallest open source air conditioner wifi adapter that works locally without the cloud.
-Only 3.6cm x 2.8cm
+Its only 3.6cm x 2.8cm.
 
 # Features
 
