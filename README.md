@@ -43,10 +43,11 @@ The firmware is based on [esphome-panasonic-ac](https://github.com/DomiStyle/esp
 
 ```yaml
 esphome:
-  name: panasonic-ac
-  friendly_name: 
-  platform: ESP32
-  board: nodemcu-32s
+  name: AirControl-Mini
+  friendly_name: AirControl-Mini
+  project:
+    name: "Zhhi.AirControl-Mini"
+    version: "2.0"
 
 esp32:
   board: esp32-s3-devkitc-1
@@ -131,4 +132,4 @@ Since Panasonic ACs support different features you can comment out the lines at 
 In order to find out which features are supported by your AC, check the remote that came with it. Please note that eco switch and mild dry switch are not supported on DNSK-P11.
 
 **Enabling unsupported features can lead to undefined behavior and may damage your AC. Make sure to check your remote or manual first.**\
-**current_power_consumption is just a ESTIMATED value by the AC**
+**current_power_consumption is only an ESTIMATED value by the AC**

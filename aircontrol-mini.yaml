@@ -1,8 +1,9 @@
 esphome:
-  name: panasonic-ac
-  friendly_name: 
-  platform: ESP32
-  board: nodemcu-32s
+  name: AirControl-Mini
+  friendly_name: AirControl-Mini
+  project:
+    name: "Zhhi.AirControl-Mini"
+    version: "2.0"
 
 esp32:
   board: esp32-s3-devkitc-1
