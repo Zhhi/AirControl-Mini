@@ -1,4 +1,4 @@
-<img src="Images/AirControl-Mini.jpg" width="auto" height="500">
+<img src="Images/AirControl-Mini.jpg" width="550">
 
 # AirControl-Mini
 The smallest open source air conditioner wifi module that works locally without the cloud.
@@ -15,14 +15,14 @@ The smallest open source air conditioner wifi module that works locally without 
 ## Supported Modules
 | **Module** | **Picture** | **AC Connector** |
 | ---------  | ----------- | ---------------- |
-| Panasonic CZ-TACG1 | <img src="Images/Panasonic CZ-TACG1.jpg" width="auto" height="150"> | CN-CNT |
-| Panasonic DNSK-P11 | <img src="Images/Panasonic DNSK-P11.jpg" width="auto" height="150"> | CN-WLAN |
+| Panasonic CZ-TACG1 | <img src="Images/Panasonic CZ-TACG1.jpg" width="150"> | CN-CNT |
+| Panasonic DNSK-P11 | <img src="Images/Panasonic DNSK-P11.jpg" width="150"> | CN-WLAN |
 
 ## Hardware Specification
 - **Microcontroller:**
    - ESP32-S3
 - **Power:**
-   - TLV755P: High-efficiency LDO
+   - TLV755P: High-performance LDO
 - **UART Communication:**
    - TXU0202: UART level shifting and protection
 - **Buttons:**
@@ -35,7 +35,7 @@ The smallest open source air conditioner wifi module that works locally without 
 ## Getting Started
 ### Prerequisites:
 1. AirControl-Mini.
-2. USB-to-serial adapter for programming (optional but highly recommended).
+2. USB-to-serial adapter for programming.
 3. A compatible air conditioner that uses one of the supported module.
 
 ## ESPhome YAML
