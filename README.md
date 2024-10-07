@@ -6,9 +6,10 @@ The smallest open source air conditioner wifi module that works locally without 
 ## Features
 - **Local Control**: Control AC directly with Home Assistant, ESPHome or MQTT.
 - **ESPHome Integration**: Easily integrates with ESPHome for home automation setups.
-- **Compact Design**: Small PCB footprint (3.5cm x 2.8cm) suitable for space-constrained installations.
+- **Compact Design**: Small PCB footprint (3.7cm x 2.8cm) suitable for space-constrained installations.
 - **Live Reports Support**: Receive live reports and current state from the AC.
 - **UART Communication**: Control air conditioner via UART interface.
+- **I2C Expansion Port**: Works with SparkFun's Qwiic and Adafruit's STEMMA QT (3.3V Only) sensors
 - **ESPFlash Pin Format**: Programming pin adheres to the [ESPFlash](https://github.com/SuperHouse/ESPFlash) convention.
 - **Open-source Hardware and Firmware**: Both the hardware design and the firmware are fully open-source.
 
@@ -25,6 +26,8 @@ The smallest open source air conditioner wifi module that works locally without 
    - TLV755P: High-performance LDO
 - **UART Communication:**
    - TXU0202: UART level shifting and protection 
+- **I2C Expansion Port:**
+   - JST SH Connector: Compatible with SparkFun's Qwiic and Adafruit's STEMMA QT (3.3V Only) sensors
 - **Buttons:**
    - RST (Reset)
    - IO0 (Boot)
