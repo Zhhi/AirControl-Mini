@@ -24,9 +24,10 @@ The smallest open source air conditioner wifi module that works locally without 
 - **Power:**
    - TLV755P: High-performance LDO
 - **UART Communication:**
-   - TXU0202: UART level shifting and protection
+   - TXU0202: UART level shifting and protection 
 - **Buttons:**
    - RST (Reset)
+   - IO0 (Boot)
 - **LED Indicators:**
    - Blue LED: Indicates communication status
 
