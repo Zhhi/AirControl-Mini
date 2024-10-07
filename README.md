@@ -80,6 +80,10 @@ uart:
   baud_rate: 9600
   parity: EVEN
 
+i2c:
+  sda: GPIO9
+  scl: GPIO10
+
 external_components:
   source: github://DomiStyle/esphome-panasonic-ac
   components: [panasonic_ac]
